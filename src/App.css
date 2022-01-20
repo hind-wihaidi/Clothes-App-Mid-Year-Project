@@ -1,0 +1,75 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(202, 168, 128);
+  color: lightgrey;
+}
+
+.navLinks {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 15px;
+}
+
+li,
+li a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.clothes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clothesCard {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
+  height: 40vh;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.clothesCard img {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(0.2);
+}
+
+.clothes a {
+  text-decoration: none;
+}
+.home__text {
+  text-align: center;
+  color: #fff;
+}
+
+.data__col {
+  color: #000;
+}
+
+.button {
+  background-color:rgb(202, 168, 128);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
